@@ -16,6 +16,9 @@
 		C28938F01854E0690026D05A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C28938EF1854E0690026D05A /* Default.png */; };
 		C28938F21854E0690026D05A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C28938F11854E0690026D05A /* Default@2x.png */; };
 		C28938F41854E0690026D05A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C28938F31854E0690026D05A /* Default-568h@2x.png */; };
+		C28938FB1854E0980026D05A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28938FA1854E0980026D05A /* MainStoryboard.storyboard */; };
+		C28938FE1854E1FB0026D05A /* PeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28938FD1854E1FB0026D05A /* PeopleTableViewController.m */; };
+		C28939041854E7FA0026D05A /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28939031854E7FA0026D05A /* NameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		C28938EF1854E0690026D05A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C28938F11854E0690026D05A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C28938F31854E0690026D05A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C28938FA1854E0980026D05A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C28938FC1854E1FB0026D05A /* PeopleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleTableViewController.h; sourceTree = "<group>"; };
+		C28938FD1854E1FB0026D05A /* PeopleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleTableViewController.m; sourceTree = "<group>"; };
+		C28939021854E7FA0026D05A /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameViewController.h; path = ../NameViewController.h; sourceTree = "<group>"; };
+		C28939031854E7FA0026D05A /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NameViewController.m; path = ../NameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +86,14 @@
 		C28938E31854E0690026D05A /* StoryboardThree */ = {
 			isa = PBXGroup;
 			children = (
+				C28939021854E7FA0026D05A /* NameViewController.h */,
+				C28939031854E7FA0026D05A /* NameViewController.m */,
 				C28938EC1854E0690026D05A /* AppDelegate.h */,
 				C28938ED1854E0690026D05A /* AppDelegate.m */,
 				C28938E41854E0690026D05A /* Supporting Files */,
+				C28938FA1854E0980026D05A /* MainStoryboard.storyboard */,
+				C28938FC1854E1FB0026D05A /* PeopleTableViewController.h */,
+				C28938FD1854E1FB0026D05A /* PeopleTableViewController.m */,
 			);
 			path = StoryboardThree;
 			sourceTree = "<group>";
@@ -154,6 +167,7 @@
 				C28938F01854E0690026D05A /* Default.png in Resources */,
 				C28938F21854E0690026D05A /* Default@2x.png in Resources */,
 				C28938F41854E0690026D05A /* Default-568h@2x.png in Resources */,
+				C28938FB1854E0980026D05A /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,8 @@
 			files = (
 				C28938EA1854E0690026D05A /* main.m in Sources */,
 				C28938EE1854E0690026D05A /* AppDelegate.m in Sources */,
+				C28938FE1854E1FB0026D05A /* PeopleTableViewController.m in Sources */,
+				C28939041854E7FA0026D05A /* NameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
